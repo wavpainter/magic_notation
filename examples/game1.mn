@@ -32,7 +32,7 @@ SPierce from graveyard to hand, pass
 1 untap, draw, I-FlVerge-FlVerge', Scrollshift => TempLock, draw, TempLock exiled by Scrollshift, trigger
 2 SCauldron-MMako from TempLock exile to battlefield
 1 TempLock from Scrollshift exile to battlefield, trigger
-2 in response SCauldron', active SCauldron => MRivReg-TersaLi
+2 in response SCauldron', actv SCauldron => MRivReg-TersaLi
 1 MRivReg exiled by SCauldron
 2 put 1 on TersaLi, resolves, 2MMako-SCauldron-FearMO exiled by TempLock
 1 remove time from OverFlood, pass
@@ -44,12 +44,3 @@ SPierce from graveyard to hand, pass
 1 pass
 2 untap, draw, RivVerge-ThFalls', FearMO, trigger, discard SpCanal, draw, 2MMako trigger, put 1 on 2MMako, combat, 2MMako-TersaLi-FearMO'
 2 concede
-# Game 2
-1 is SS
-2 is PVD
-1 draw 7, mulligan
-2 draw 7, keep
-1 draw 7, keep, bottom 1, Plains, pass
-2 draw, SpCanal, SpCanal', MMako, pass
-1 draw, FlVerge, pass
-2 untap, draw, s

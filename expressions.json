@@ -1,0 +1,80 @@
+{
+    "declarePlayer": [
+        "directive:is",
+        "label"
+    ],
+    "drawCards": [
+        "directive:draw",
+        "number?",
+        "cardName*?"
+    ],
+    "keep": [
+        "directive:keep"
+    ],
+    "mulligan": [
+        "directive:mulligan"
+    ],
+    "passTurn": [
+        "directive:pass"
+    ],
+    "cardFromHand": [
+        "cardName*",
+        "directive:tapped?",
+        "target*?"
+    ],
+    "trigger": [
+        "ref[permanent]*?",
+        "directive:trigger"
+    ],
+    "changeZone": [
+        "ref*",
+        "directive:from?",
+        "zone?",
+        "directive:to",
+        "zone"
+    ],
+    "tapPermanents": [
+        "ref[permanent]*'"
+    ],
+    "untapPermanents": [
+        "ref[permanent]*''"
+    ],
+    "untapAll": [
+        "directive:untap"
+    ],
+    "discardFromHand": [
+        "directive:discard",
+        "cardName*"
+    ],
+    "goToCombat": [
+        "directive:combat"
+    ],
+    "block": [
+        "ref[permanent]*",
+        "directive:blocks",
+        "ref[permanent]?"
+    ],
+    "permanentDies": [
+        "ref[permanent]*",
+        "directive:dies"
+    ],
+    "changeLifeTotal": [
+        "directive:goto",
+        "number"
+    ],
+    "addCounters": [
+        "directive:put",
+        "number",
+        "label?",
+        "on",
+        "ref[permanent]*"
+    ],
+    "removeCounters": [
+        "directive:remove",
+        "number",
+        "label?",
+        "from",
+        "ref[permanent]*"
+    ],
+    
+}
