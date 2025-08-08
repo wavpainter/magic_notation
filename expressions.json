@@ -20,16 +20,27 @@
     "cardFromHand": [
         "cardName*",
         "directive:tapped?",
+        "directive:facedown?",
         "target*?"
+    ],
+    "revealCards": [
+        "directive:reveal",
+        "cardName*",
+        "directive:from?",
+        "zone?"
+    ],
+    "flipCard": [
+        
     ],
     "trigger": [
         "ref*?",
         "directive:trigger"
     ],
     "changeZone": [
+        "directive:return?",
         "ref*",
         "directive:from?",
-        "label?",
+        "ref?",
         "zone?",
         "directive:to",
         "zone"
@@ -81,10 +92,11 @@
     "exile": [
         "ref*",
         "directive:exiled",
+        "directive:facedown?",
         "directive:from?",
         "zone?",
         "directive:by?",
-        "label?"
+        "ref?"
     ],
     "createToken": [
         "directive:create",

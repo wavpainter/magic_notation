@@ -6,8 +6,7 @@
 2 draw 7, keep
 1 FlVerge, pass
 2 draw, ThFalls tapped, trigger, WStories from top to graveyard, pass
-1 draw, Island, lands', FalArch, trigger, MRivReg-FThirdP-SPierce from top to graveyard,
-SPierce from graveyard to hand, pass
+1 draw, Island, lands', FalArch, trigger, MRivReg-FThirdP-SPierce from top to graveyard, SPierce from graveyard to hand, pass
 2 untap, draw, ThFalls tapped, trigger, lands', MMako, pass
 1 untap, draw, FlVerge, lands', StockUp, draw 2, pass
 2 untap, draw, SpCanal, lands', TersaLi, trigger, discard GlacDrag-Abrade, MMako trigger, put 2 on MMako, combat, MMako', TersaLi'
