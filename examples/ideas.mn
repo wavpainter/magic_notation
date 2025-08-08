@@ -29,6 +29,10 @@ mk 3/3 "green Elephant"
 
 1 S-I', DTut, ThOracle from lib to hnd, shfl
 
+# Buff something
+
+1 creatures gain +3/+0 until end
+
 # Still unsure
 
 Face down cards?

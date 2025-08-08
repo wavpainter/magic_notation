@@ -63,20 +63,6 @@
         "directive:goto?",
         "number"
     ],
-    "addCounters": [
-        "directive:put",
-        "number",
-        "label?",
-        "on",
-        "ref[permanent]*"
-    ],
-    "removeCounters": [
-        "directive:remove",
-        "number",
-        "label?",
-        "from",
-        "ref[permanent]*"
-    ],
     "response": [
         "directive:in?",
         "directive:response",
@@ -109,15 +95,39 @@
     "concedeLoss": [
         "directive:concede"
     ],
-    "playerGainCounters": [
+    "addCountersToPermanent": [
+        "directive:put",
+        "number",
+        "label?",
+        "on",
+        "ref[permanent]*"
+    ],
+    "removeCountersToPermanent": [
+        "directive:remove",
+        "number",
+        "label?",
+        "from",
+        "ref[permanent]*"
+    ],
+    "gainStatOrAbility": [
+        "ref*?",
         "directive:gain",
         "number?",
-        "label"
+        "label",
+        "directive:until?",
+        "phase?",
+        "directive:next?",
+        "directive:turn?"
     ],
-    "playerLoseCounters": [
+    "loseStatOrAbility": [
+        "ref*?",
         "directive:lose",
         "number?",
-        "label"
+        "label",
+        "directive:until?",
+        "phase?",
+        "directive:next?",
+        "directive:turn?"
     ],
     "shuffleLibrary": [
         "directive:shuffle"
