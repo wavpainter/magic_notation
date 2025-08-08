@@ -23,12 +23,13 @@
         "target*?"
     ],
     "trigger": [
-        "ref[permanent]*?",
+        "ref*?",
         "directive:trigger"
     ],
     "changeZone": [
         "ref*",
         "directive:from?",
+        "label?",
         "zone?",
         "directive:to",
         "zone"
@@ -46,8 +47,8 @@
         "directive:discard",
         "cardName*"
     ],
-    "goToCombat": [
-        "directive:combat"
+    "goToPhase": [
+        "phase"
     ],
     "block": [
         "ref[permanent]*",
@@ -59,7 +60,7 @@
         "directive:dies"
     ],
     "changeLifeTotal": [
-        "directive:goto",
+        "directive:goto?",
         "number"
     ],
     "addCounters": [
@@ -76,5 +77,49 @@
         "from",
         "ref[permanent]*"
     ],
-    
+    "response": [
+        "directive:in?",
+        "directive:response",
+        "expression"
+    ],
+    "resolveResponse": [
+        "directive:resolves"
+    ],
+    "activate": [
+        "directive:activate",
+        "ref",
+        "target*?",
+        "directive:from?",
+        "zone?"
+    ],
+    "exile": [
+        "ref*",
+        "directive:exiled",
+        "directive:from?",
+        "zone?",
+        "directive:by?",
+        "label?"
+    ],
+    "createToken": [
+        "directive:create",
+        "permanentAttr*",
+        "label",
+        "directive:tapped?"
+    ],
+    "concedeLoss": [
+        "directive:concede"
+    ],
+    "playerGainCounters": [
+        "directive:gain",
+        "number?",
+        "label"
+    ],
+    "playerLoseCounters": [
+        "directive:lose",
+        "number?",
+        "label"
+    ],
+    "shuffleLibrary": [
+        "directive:shuffle"
+    ]
 }
