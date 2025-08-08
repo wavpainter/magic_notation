@@ -1,0 +1,30 @@
+# Create a treasure
+make artifact Treasure
+mk art Treasure
+
+# Create a creature token
+make 3/3 "green Elephant"
+mk 3/3 "green Elephant"
+
+# Exile both players' graveyards
+1-2>graveyard exiled
+1-2>gy exd
+
+# Give opponent two poison counters and goes to 8 life
+1 combat, ToxicCreature'
+2 gain Poison, goto 8
+
+1 cmb, TC'
+2 + Poison, goto 8
+
+# Gain the monarchy
+1 gain Monarch
+2 lose Monarch
+
+1 + Monarch
+2 - Monarch
+
+# Tutor a card
+1 Swamp-Island', DemonicTutor, ThassasOracle from library to hand, shuffle
+
+1 S-I', DTut, ThOracle from lib to hnd, shfl
