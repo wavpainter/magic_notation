@@ -1,7 +1,52 @@
 import fs from 'node:fs/promises';
 
+function parseNameList(expr,i) {
+    let firstName = null;
+    let j = -1;
+    if(expr[i] == '"') {
+        j = i+1;
+        while(j < (expr.length - 1) && expr[j] != '"') j++;
+
+        firstName = expr.slice(i+1,j);
+        j++;
+    }else{
+        j = i;
+        while(j < expr.length && /[A-Za-z]/.test(expr[j])) j++;
+
+        firstName = expr.slice(i,j);
+    }
+
+    if(expr[j] == "-") {
+        var res = parseNameList(expr,j+1);
+        let subNameList = res["nameList"];
+        j = res["index"];
+        
+        return {
+            "nameList": [firstName].concat(subNameList),
+            "index": j
+        }
+    } else {
+        return {
+            "nameList": [firstName],
+            "index": j
+        }
+    }
+}
+
 function parseExpr(expr) {
-    console.log(expr)
+    let parsedExpr = [];
+
+    let i = 0;
+    while(i < expr.length) {
+        if(expr[i] == '"' || /[A-Z]/.test(expr[i])) {
+            let res = parseNameList(expr,i);
+            let nameList = res['nameList'];
+            i = res['index'];
+
+            console.log(nameList)
+        }
+        i++;
+    }
 }
 
 function parseNotation(data) {

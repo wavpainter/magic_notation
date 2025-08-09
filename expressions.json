@@ -3,7 +3,11 @@
         "directive:is",
         "label"
     ],
-    "drawCards": [
+    "declareLibarySize": [
+        "zone:library",
+        "directive:has?",
+        "number"
+    ],"drawCards": [
         "directive:draw",
         "number?",
         "cardName*?"
@@ -23,14 +27,17 @@
         "directive:facedown?",
         "target*?"
     ],
-    "revealCards": [
+    "revealCardsFromZone": [
         "directive:reveal",
         "cardName*",
         "directive:from?",
         "zone?"
     ],
     "flipCard": [
-        
+        "directive:flip",
+        "ref",
+        "directive:reveal?",
+        "cardName"
     ],
     "trigger": [
         "ref*?",
