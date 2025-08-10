@@ -17,39 +17,81 @@ function parseNameList(expr,i) {
     }
 
     if(expr[j] == "-") {
-        var res = parseNameList(expr,j+1);
-        let subNameList = res["nameList"];
-        j = res["index"];
+        let subNameList = null;
+        [subNameList,j] = parseNameList(expr,j+1);
         
-        return {
-            "nameList": [firstName].concat(subNameList),
-            "index": j
-        }
+        return [[firstName].concat(subNameList), j]
     } else {
-        return {
-            "nameList": [firstName],
-            "index": j
-        }
+        return [[firstName], j]
     }
 }
 
-function parseExpr(expr) {
+function parseNumberList(expr,i) {
+    let firstNumber = null;
+    
+    let j = i;
+    while(j < expr.length && /[0-9]/.test(expr[j])) j++;
+
+    firstNumber = Number.parseInt(expr.slice(i,j));
+
+    if(expr[j] == "-") {
+        let subNumberList = null;
+        [subNumberList,j] = parseNumberList(expr,j+1);
+        
+        return [[firstNumber].concat(subNumberList), j]
+    } else {
+        return [[firstNumber], j]
+    }
+}
+
+function parseTokenList(expr,tokenLookup,i) {
+    let firstToken = null;
+    
+    let j = i;
+    while(j < expr.length && /[a-zA-Z+=\-]/.test(expr[j])) j++;
+
+    let firstTokenStr = expr.slice(i,j);
+    if(firstTokenStr in tokenLookup) {
+        firstToken = tokenLookup[firstTokenStr];
+    }else {
+        firstToken = ['unknown',firstTokenStr]
+    }
+
+    if(expr[j] == "-") {
+        let subTokenList = null;
+        [subTokenList,j] = parseTokenList(expr,j+1);
+        
+        return [[firstToken].concat(subTokenList), j]
+    } else {
+        return [[firstToken], j]
+    }
+}
+
+function parseExpr(expr,tokenLookup,i=0) {
     let parsedExpr = [];
 
-    let i = 0;
     while(i < expr.length) {
         if(expr[i] == '"' || /[A-Z]/.test(expr[i])) {
-            let res = parseNameList(expr,i);
-            let nameList = res['nameList'];
-            i = res['index'];
+            let nameList = null;
+            [nameList,i] = parseNameList(expr,i);
 
             console.log(nameList)
+        }else if(/[0-9]/.test(expr[i])) {
+            let numberList = null;
+            [numberList,i] = parseNumberList(expr,i);
+
+            console.log(numberList)
+        } else {
+            let tokenList = null;
+            [tokenList,i] = parseTokenList(expr,tokenLookup,i);
+
+            console.log(tokenList);
         }
         i++;
     }
 }
 
-function parseNotation(data) {
+function parseNotation(data,tokenLookup) {
     const lines = data.split("\n")
     const parsedLines = lines.map(line => {
         if(line[0] == "#") {
@@ -60,7 +102,7 @@ function parseNotation(data) {
         } else {
             var exprs = line.slice(1).split(',')
             var parsed = exprs.map(expr => {
-                parseExpr(expr.trim())
+                parseExpr(expr.trim(),tokenLookup)
             })
 
             return {
@@ -102,7 +144,7 @@ try {
     const tokens = JSON.parse(tokensData);
     const tokenLookup = createTokenLookup(tokens);
     console.log(tokenLookup);
-    const parsedData = parseNotation(data);
+    const parsedData = parseNotation(data,tokenLookup);
 } catch (err) {
     console.error(err);
 }
