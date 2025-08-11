@@ -104,6 +104,12 @@ function parseExprSection(expr,tokenLookup,start=0,end=expr.length) {
                 "type": "numbers",
                 "value": numberList
             })
+        } else if(expr[i] == "="){
+            if(i + 1 < end && i + 1 == ">") {
+                exprChunk.push({
+                    "type": "target",
+                })
+            }
         } else {
             let tokenList = null;
             [tokenList,i] = parseTokenList(expr,tokenLookup,i,end);

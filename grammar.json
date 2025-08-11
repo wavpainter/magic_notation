@@ -1,0 +1,29 @@
+{
+    "syntax": {
+        "names": "array",
+        "numbers": "array",
+        "tokens": "array",
+        "untap": "symbol",
+        "tap": "symbol",
+        "filter": "expression",
+        "statdivider": "symbol",
+        "reference": "symbol",
+        "target": "symbol"
+    },
+    "grammar": {
+        "label*": "names",
+        "label": "names!",
+        "number*": "numbers",
+        "number": "numbers!",
+        "cardName*": "names",
+        "cardName": "names!",
+        "zone*": "[{number*}[reference]]tokens(zone)",
+        "zone": "{zone*}!",
+        "ref*": "[{zone*}[reference]][name|names][filter]",
+        "ref": "{ref*}!",
+        "target*": "target {ref*}",
+        "target": "{target*}!",
+        "permanentAttr*": "[tokens(attribute)]number!&statdivider&number![tokens(attribute)]",
+        "permanentAttr": "{permanentAttr*}!"
+    }
+}
