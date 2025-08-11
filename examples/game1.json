@@ -1,0 +1,3466 @@
+[
+    {
+        "type": "comment",
+        "value": "PT Final Fantasy Round 6 Paulo Vitor Damo da Rosa vs. Stefan Schutz"
+    },
+    {
+        "type": "comment",
+        "value": "Game 1"
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "is"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SS"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "is"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "PVD"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "library"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "has"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            60
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "library"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "has"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            60
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            7
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "keep"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            7
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "keep"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FlVerge"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "ThFalls"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "tapped"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "WStories"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "top"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "graveyard"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Island"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "lands"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FalArch"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MRivReg",
+                            "FThirdP",
+                            "SPierce"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "top"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "graveyard"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SPierce"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "graveyard"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "hand"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "ThFalls"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "tapped"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "lands"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FlVerge"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "lands"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "StockUp"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SpCanal"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "lands"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TersaLi"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "discard"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "GlacDrag",
+                            "Abrade"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "phase",
+                                "combat"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TersaLi"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FalArch"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "blocks"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FalArch"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "dies"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            17
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "lands"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "OverFlood"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "discard"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Omni"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            4
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "unknown",
+                                "time"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "OverFlood"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FVerge"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "remove"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "unknown",
+                                "time"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "OverFlood"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "RivVerge"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "RivVerge",
+                            "ThFalls"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "in"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "response"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SPierce"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "reference"
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "lands"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "resolves"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "phase",
+                                "combat"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TersaLi",
+                            "MMako"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            11
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "FlVerge",
+                            "Island"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "in"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "response"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "activate"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "reference"
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Omni"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Omni"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "exiled"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "by"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "resolves"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron",
+                            "MMako"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "exiled"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "by"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "remove"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "unknown",
+                                "time"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "OverFlood"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "phase",
+                                "combat"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TerasLi"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            8
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "RivVerge"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "ThFalls",
+                            "RivVerge"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FearMO"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "discard"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Mountain"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "I",
+                            "FlVerge",
+                            "FlVerge"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Scrollshift"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "reference"
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "exiled"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "by"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Scrollshift"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron",
+                            "MMako"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "exile"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "battlefield"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Scrollshift"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "exile"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "battlefield"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "in"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "response"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "activate"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "reference"
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MRivReg",
+                            "TersaLi"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "MRivReg"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "exiled"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "by"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TersaLi"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "resolves"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako",
+                            "SCauldron",
+                            "FearMO"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "exiled"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "by"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "remove"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "unknown",
+                                "time"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "OverFlood"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "in"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "response"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "IntoFlMaw"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "reference"
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "hand"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "create"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    },
+                    {
+                        "type": "statdivider"
+                    },
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "Fish"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "indicator",
+                                "tapped"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako",
+                            "FearMO",
+                            "SCauldron"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "from"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "TempLock"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "exile"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "to"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "zone",
+                                "battlefield"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FearMO"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "discard"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "WStories"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "activate"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "goto"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "reference"
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FalArch",
+                            "FearMO"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FalArch"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "exiled"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "by"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SCauldron"
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FearMO"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "resolves"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "1",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "pass"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "untap"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "RivVerge",
+                            "ThFalls"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "FearMO"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "discard"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "names",
+                        "value": [
+                            "SpCanal"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "draw"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "trigger"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "put"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            1
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "on"
+                            ]
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako"
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "phase",
+                                "combat"
+                            ]
+                        ]
+                    }
+                ]
+            ],
+            [
+                [
+                    {
+                        "type": "numbers",
+                        "value": [
+                            2
+                        ]
+                    },
+                    {
+                        "type": "names",
+                        "value": [
+                            "MMako",
+                            "TersaLi",
+                            "FearMO"
+                        ]
+                    },
+                    {
+                        "type": "tap"
+                    }
+                ]
+            ]
+        ]
+    },
+    {
+        "type": "playerActions",
+        "player": "2",
+        "sequence": [
+            [
+                [
+                    {
+                        "type": "tokens",
+                        "value": [
+                            [
+                                "directive",
+                                "concede"
+                            ]
+                        ]
+                    }
+                ]
+            ]
+        ]
+    }
+]

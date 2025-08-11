@@ -1,94 +1,183 @@
 import fs from 'node:fs/promises';
 
-function parseNameList(expr,i) {
+function parseNameList(expr,start=0,end=expr.length) {
     let firstName = null;
-    let j = -1;
-    if(expr[i] == '"') {
-        j = i+1;
-        while(j < (expr.length - 1) && expr[j] != '"') j++;
+    let i = -1;
+    if(expr[start] == '"') {
+        i = start+1;
+        while(i < (end - 1) && expr[i] != '"') i++;
 
-        firstName = expr.slice(i+1,j);
-        j++;
+        firstName = expr.slice(start+1,i);
+        i++;
     }else{
-        j = i;
-        while(j < expr.length && /[A-Za-z]/.test(expr[j])) j++;
+        i = start;
+        while(i < end && /[A-Za-z]/.test(expr[i])) i++;
 
-        firstName = expr.slice(i,j);
+        firstName = expr.slice(start,i);
     }
 
-    if(expr[j] == "-") {
+    if(expr[i] == "-") {
         let subNameList = null;
-        [subNameList,j] = parseNameList(expr,j+1);
+        [subNameList,i] = parseNameList(expr,i+1,end);
         
-        return [[firstName].concat(subNameList), j]
+        return [[firstName].concat(subNameList), i]
     } else {
-        return [[firstName], j]
+        return [[firstName], i]
     }
 }
 
-function parseNumberList(expr,i) {
+function parseNumberList(expr,start=0,end=expr.length) {
     let firstNumber = null;
     
-    let j = i;
-    while(j < expr.length && /[0-9]/.test(expr[j])) j++;
+    let i = start;
+    while(i < end && /[0-9]/.test(expr[i])) i++;
 
-    firstNumber = Number.parseInt(expr.slice(i,j));
+    firstNumber = Number.parseInt(expr.slice(start,i));
 
-    if(expr[j] == "-") {
+    if(expr[i] == "-") {
         let subNumberList = null;
-        [subNumberList,j] = parseNumberList(expr,j+1);
+        [subNumberList,i] = parseNumberList(expr,i+1,end);
         
-        return [[firstNumber].concat(subNumberList), j]
+        return [[firstNumber].concat(subNumberList), i]
     } else {
-        return [[firstNumber], j]
+        return [[firstNumber], i]
     }
 }
 
-function parseTokenList(expr,tokenLookup,i) {
+function parseTokenList(expr,tokenLookup,start=0,end=expr.length) {
     let firstToken = null;
     
-    let j = i;
-    while(j < expr.length && /[a-zA-Z+=\-]/.test(expr[j])) j++;
+    let i = start;
+    while(i < end && /[a-zA-Z+=]/.test(expr[i])) i++;
 
-    let firstTokenStr = expr.slice(i,j);
+    let firstTokenStr = expr.slice(start,i);
     if(firstTokenStr in tokenLookup) {
         firstToken = tokenLookup[firstTokenStr];
     }else {
         firstToken = ['unknown',firstTokenStr]
     }
 
-    if(expr[j] == "-") {
+    if(expr[i] == "-") {
         let subTokenList = null;
-        [subTokenList,j] = parseTokenList(expr,j+1);
+        [subTokenList,i] = parseTokenList(expr,tokenLookup,i+1,end);
         
-        return [[firstToken].concat(subTokenList), j]
+        return [[firstToken].concat(subTokenList), i]
     } else {
-        return [[firstToken], j]
+        return [[firstToken], i]
     }
 }
 
-function parseExpr(expr,tokenLookup,i=0) {
-    let parsedExpr = [];
+function parseFilterExpr(expr,tokenLookup,start=0,end=expr.length) {
+    let i = start + 1;
+    while(i < end && expr[i] != ")") i++;
 
-    while(i < expr.length) {
+    return parseExprSection(filterExpr,tokenLookup,start+1,i);
+}
+
+function parseExprSection(expr,tokenLookup,start=0,end=expr.length) {
+    let parsedExpr = [];
+    let i = start;
+    let exprChunk = [];
+
+    while(i < end) {
+        let j = i;
+
+        console.log(expr);
+        console.log(i);
+
         if(expr[i] == '"' || /[A-Z]/.test(expr[i])) {
             let nameList = null;
-            [nameList,i] = parseNameList(expr,i);
+            [nameList,i] = parseNameList(expr,i,end);
 
-            console.log(nameList)
+            exprChunk.push({
+                "type": "names",
+                "value": nameList
+            })
         }else if(/[0-9]/.test(expr[i])) {
             let numberList = null;
-            [numberList,i] = parseNumberList(expr,i);
+
+            [numberList,i] = parseNumberList(expr,i,end);
 
             console.log(numberList)
+
+            exprChunk.push({
+                "type": "numbers",
+                "value": numberList
+            })
         } else {
             let tokenList = null;
-            [tokenList,i] = parseTokenList(expr,tokenLookup,i);
+            [tokenList,i] = parseTokenList(expr,tokenLookup,i,end);
 
-            console.log(tokenList);
+            exprChunk.push({
+                "type": "tokens",
+                "value": tokenList
+            })
         }
-        i++;
+
+        while(i < end) {
+
+            if(expr[i] == "'") {
+                if(i + 1 < end && expr[i+1] == "'") {
+                    exprChunk.push({
+                        "type":"untap"
+                    })
+                    i += 2;
+                }else {
+                    exprChunk.push({
+                        "type":"tap"
+                    })
+                    i++;
+                }
+            }else if(expr[i] == "(") {
+                // Filter
+                let filterExpr = null;
+                [filterExpr,i] = parseFilterExpr(expr,tokenLookup,i+1,end);
+                exprChunk.push({
+                    "type":"filter",
+                    "value": filterExpr
+                })
+
+                i++;
+            } else if(expr[i] == "/"){
+                exprChunk.push({
+                    "type": "statdivider"
+                })
+                i++;
+            } else if(expr[i] == ">"){
+                exprChunk.push({
+                    "type": "reference"
+                })
+                i++;
+            } else {
+                break;
+            }
+        }
+
+        if(expr[i] == ' ') {
+            if(exprChunk != []) {
+                parsedExpr.push(exprChunk);
+                exprChunk = [];
+            }
+            i++;
+        } else if (i == j) {
+            exprChunk.push({
+                "type": "unknown",
+                "character": expr[i]
+            })
+            i++;
+        }
     }
+
+    if(exprChunk != []) {
+        parsedExpr.push(exprChunk)
+    }
+
+    return [parsedExpr,i]
+}
+
+function parseExpr(expr,tokenLookup) {
+    const [parsedExpr,i] = parseExprSection(expr,tokenLookup)
+    return parsedExpr
 }
 
 function parseNotation(data,tokenLookup) {
@@ -102,12 +191,13 @@ function parseNotation(data,tokenLookup) {
         } else {
             var exprs = line.slice(1).split(',')
             var parsed = exprs.map(expr => {
-                parseExpr(expr.trim(),tokenLookup)
+                return parseExpr(expr.trim(),tokenLookup)
             })
 
             return {
                 "type": "playerActions",
-                "player": line[0]
+                "player": line[0],
+                "sequence": parsed
             }
         }
     })
@@ -145,6 +235,9 @@ try {
     const tokenLookup = createTokenLookup(tokens);
     console.log(tokenLookup);
     const parsedData = parseNotation(data,tokenLookup);
+    const parsedDataJSON = JSON.stringify(parsedData,null,4);
+    await fs.writeFile(output_path,parsedDataJSON,{encoding: "utf-8"})
+
 } catch (err) {
     console.error(err);
 }
